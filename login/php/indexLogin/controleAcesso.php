@@ -36,7 +36,7 @@
     {
 
       // Criar as variáveis na sessão
-      $_SESSION["logado"] = "on";
+      $_SESSION["logadoDev"] = "on";
       $_SESSION["empresa"] = $registro['empresa'];
 
       if($_SESSION["empresa"]=='salute')
@@ -52,7 +52,7 @@
       if($_SESSION["empresa"]=='mipets')
       {
         // redirecionar para a página principal
-        header("Location: Mipets/index.php");
+        header("Location: MiPets/index.php");
       }
       
 

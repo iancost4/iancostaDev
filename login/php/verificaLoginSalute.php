@@ -4,7 +4,7 @@
   session_start();
 
   // Não está logado?
-  if ( $_SESSION["logado"] != "on" && $_SESSION["empresa"] != "salute" ) {
+  if ( $_SESSION["logadoDev"] != "on" && $_SESSION["empresa"] != "salute" ) {
     // Redireciona para a página de login
     header("Location: ../index.php");
   }
