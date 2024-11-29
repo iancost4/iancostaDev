@@ -1,50 +1,43 @@
 {
-    "title": "Resume",
-    "name": "startbootstrap-resume",
-    "version": "5.0.5",
-    "scripts": {
-        "start": "gulp watch"
-    },
-    "description": "Resume is a simple, yet elegant resume and CV theme for Bootstrap 4.",
-    "keywords": [
-        "css",
-        "sass",
-        "html",
-        "responsive",
-        "theme",
-        "template"
-    ],
-    "homepage": "https://startbootstrap.com/template-overviews/resume",
-    "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-resume/issues",
-        "email": "feedback@startbootstrap.com"
-    },
-    "license": "MIT",
-    "author": "Start Bootstrap",
-    "contributors": [
-        "David Miller (http://davidmiller.io/)"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-resume.git"
-    },
-    "dependencies": {
-        "@fortawesome/fontawesome-free": "5.8.1",
-        "bootstrap": "4.3.1",
-        "jquery": "3.3.1",
-        "jquery.easing": "^1.4.1"
-    },
-    "devDependencies": {
-        "browser-sync": "2.26.3",
-        "del": "4.0.0",
-        "gulp": "4.0.0",
-        "gulp-autoprefixer": "6.0.0",
-        "gulp-clean-css": "4.0.0",
-        "gulp-header": "2.0.7",
-        "gulp-plumber": "^1.2.1",
-        "gulp-rename": "1.4.0",
-        "gulp-sass": "4.0.2",
-        "gulp-uglify": "3.0.2",
-        "merge-stream": "^1.0.1"
-    }
+  "name": "tailwindui-template",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "browserslist": "defaults, not ie <= 11",
+  "dependencies": {
+    "@headlessui/react": "^2.1.0",
+    "@mapbox/rehype-prism": "^0.9.0",
+    "@mdx-js/loader": "^3.0.0",
+    "@mdx-js/react": "^3.0.0",
+    "@next/mdx": "^14.0.4",
+    "@tailwindcss/typography": "^0.5.4",
+    "@types/node": "^20.10.8",
+    "@types/react": "^18.2.47",
+    "@types/react-dom": "^18.2.18",
+    "@types/webpack-env": "^1.18.1",
+    "autoprefixer": "^10.4.12",
+    "cheerio": "^1.0.0-rc.12",
+    "clsx": "^2.1.0",
+    "fast-glob": "^3.2.11",
+    "feed": "^4.2.2",
+    "next": "^14.0.4",
+    "next-themes": "^0.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "remark-gfm": "^4.0.0",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-next": "^14.0.4",
+    "prettier": "^3.3.2",
+    "prettier-plugin-tailwindcss": "^0.6.5",
+    "sharp": "0.33.1"
+  }
 }
