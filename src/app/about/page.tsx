@@ -75,13 +75,13 @@ export default function About() {
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             <p>
-              Born and raised in Salvador, Bahia, Brazil, I'm a backend developer with 5 years of experience in the field. My journey in technology started with robotics, where I had my first contact with programming working with Arduino and developing a line-following robot. This experience sparked my interest in the area and led me to join the computer networks course, where I learned about infrastructure and deepened my knowledge in programming.
+              Born and raised in Salvador, Bahia, Brazil, I am a backend developer with 5 years of experience in the field. My journey in technology started with robotics, where I had my first contact with programming working with Arduino and developing a line-following robot. This experience sparked my interest in the area and led me to join the computer networks course, where I learned about infrastructure and deepened my knowledge in programming.
             </p>
             <p>
               However, my passion for programming spoke louder and I decided to migrate completely to this area. Seeking to improve myself, I took a postgraduate course in web software development, expanding my expertise and acquiring valuable skills in this field.
             </p>
             <p>
-              I am known for accepting challenges with open arms, as I believe that it is outside the comfort zone that we can achieve our best performance. I'm always looking for new knowledge and personally get involved in exciting projects because I know that's how I can expand my skills and contribute in a meaningful way.
+              I am known for accepting challenges with open arms, as I believe that it is outside the comfort zone that we can achieve our best performance. I am always looking for new knowledge and personally get involved in exciting projects because I know that is how I can expand my skills and contribute in a meaningful way.
             </p>
           </div>
         </div>
